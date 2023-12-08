@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "testComponent"
+  jenkins.io/job-full-name: departmentFoo:job/backstageComponent/
 spec:
   type: service
   owner: user:guest
