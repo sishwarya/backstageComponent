@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: "testComponent"
   jenkins.io/job-full-name: departmentFoo:job/backstageComponent/
+  backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
 spec:
   type: service
   owner: user:guest
